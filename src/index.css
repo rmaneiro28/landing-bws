@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1E1E1E;
+}
+
+p {
+    font-family: "Figtree", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1E1E1E;
+}
+
+#tsparticles {
+    z-index: -1;
+}
+
+body {
+    font-family: "Figtree", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1E1E1E;
+
+}
