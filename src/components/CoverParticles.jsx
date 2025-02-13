@@ -31,6 +31,7 @@ export const CoverParticles = () => {
         <>
             {init && (
                 <Particles
+                className="-z-30"
                     id="tsparticles"
                     particlesLoaded={particlesLoaded}
                     options={{
@@ -75,7 +76,7 @@ export const CoverParticles = () => {
                                     default: "bounce",
                                 },
                                 random: false,
-                                speed: 3,
+                                speed: 2,
                                 straight: false,
                             },
                             number: {
