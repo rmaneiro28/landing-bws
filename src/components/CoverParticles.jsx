@@ -66,7 +66,7 @@ export const CoverParticles = () => {
                                 color: "#0B43BC",
                                 distance: 150,
                                 enable: true,
-                                opacity: 1,
+                                opacity: 0.4,
                                 width: 1,
                             },
                             move: {
@@ -76,13 +76,13 @@ export const CoverParticles = () => {
                                     default: "bounce",
                                 },
                                 random: false,
-                                speed: 2,
+                                speed: 1.5,
                                 straight: false,
                             },
                             number: {
                                 density: {
                                     enable: true,
-                                    area: 800,
+                                    area: 400,
                                 },
                                 value: 80,
                             },
